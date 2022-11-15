@@ -1,23 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Home</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monte seu Catálogo - Lojas Lívia</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i&display=swap"
+      media="print"
+      onload="if(media!='all')media='all'"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
+    <div id="main_container">
+      <h1>Monte seu Catálogo - Lojas Lívia</h1>
+      <form id="formulario">
+        <input type="file" id="csvFile" accept=".csv" />
+        <br />
+        <input type="submit" value="Fazer a mágica acontecer!" />
+      </form>
+    </div>
+
+    <div id="resultado"></div>
   </body>
+  <script src="./script.js"></script>
 </html>
