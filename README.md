@@ -10,3 +10,5 @@ O arquivo .csv precisa ter as seguintes colunas:
 - _preco_de_: Preço original do produto
 - _preco_por_: Preço promocional do produto
 - _imagem_: link da imagem. Pode ser uma url ou o caminho do arquivo numa pasta local.
+
+Na pasta _arquivo exemplo_ você encontra um aquivo que pode ser usado como exemplo para upload. Você pode também alterar as informações e/ou gerar o próprio arquivo, seguindo o modelo.
