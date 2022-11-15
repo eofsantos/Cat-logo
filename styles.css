@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 10px;
   font-family: montserrat, 'sans-serif';
 }
 
@@ -21,24 +21,32 @@ body {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
-  width: 230px;
+  width: 210px;
   height: 350px;
 
   background: #ffffff;
   border: 1px solid #d9d9d9;
   border-radius: 10px;
 
-  margin: 9px;
+  margin: 5px;
   margin-top: 20px;
 }
 
 .descricao {
   text-align: center;
+  padding: 0 10px;
+  width: 80%;  
+}
+
+.precos {
+  margin: 30px 0px;
+  padding: 0 10px;
+  width: 80%;
 }
 
 .preco-de {
   color: red;
-  text-decoration: line-through;
+  text-decoration: line-through;  
 }
 
 .preco-por {
@@ -54,9 +62,25 @@ h5 {
   margin: 1px;
 }
 
+h2, .preco-por {
+  font-size: 18px;
+}
+
+h4, .preco-de {
+  font-size: 12px;
+}
+
 img {
   padding: 4px;
   max-width: 200px;
   max-height: 200px;
   border-radius: 10px;
+}
+
+@media print {
+  #form_container {
+    display: none;
+  }
+
+
 }

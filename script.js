@@ -13,7 +13,7 @@ function card(obj) {
             </div>
             <div class="descricao">
                 <h2>${obj.descricao}</h2>
-                <h4>Código:${obj.codigo}</h4>
+                <h4>Código: ${obj.codigo}</h4>
             </div>
             <div class="precos">
                 <div class="preco-de">De: R$ ${obj.preco_de}</div>

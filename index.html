@@ -12,14 +12,13 @@
       media="print"
       onload="if(media!='all')media='all'"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="main_container">
-      <h1>Monte seu Catálogo</h1>
+    <div id="form_container">
+      <h1>Monte seu catálogo dinamicamente</h1>
       <form id="formulario">
         <input type="file" id="csvFile" accept=".csv" />
-        <br />
         <input type="submit" value="Fazer a mágica acontecer!" />
       </form>
     </div>
@@ -27,15 +26,15 @@
     <div id="resultado">
       <div class="card">
         <div class="imagem">
-          <img src="${obj.imagem}" alt="" srcset="" />
+          <img src="https://via.placeholder.com/250x250.jpg" alt="" srcset="" />
         </div>
         <div class="descricao">
-          <h2>${obj.descricao}</h2>
-          <h4>Código:${obj.codigo}</h4>
+          <h2>Produto teste</h2>
+          <h4>Código: 123456</h4>
         </div>
         <div class="precos">
-          <div class="preco-de">De: R$ ${obj.preco_de}</div>
-          <div class="preco-por">Por: R$ ${obj.preco_de}</div>
+          <div class="preco-de">De: R$ 120,00</div>
+          <div class="preco-por">Por: R$ 99,90</div>
         </div>
       </div>
     </div>
